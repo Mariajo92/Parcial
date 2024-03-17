@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <EditText
+        android:id="@+id/edNombreRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="Ingrese su nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edcorreoReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="Ingrese su correo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/eddireccionReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="Ingrese su dirección"
+        android:inputType="textPostalAddress" />
+    <EditText
+        android:id="@+id/edtelefonoReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="Ingrese su telefono"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/edFechaReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Ingrese la fecha de cumpleaños"
+        android:inputType="date" />
+
+
+    <EditText
+        android:id="@+id/editcontraseñaReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnEnviarReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickEnviar"
+        android:text="Enviar" />
+
+
+</LinearLayout>
